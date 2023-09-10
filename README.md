@@ -16,6 +16,11 @@ The dashboard is not publicly given that it is only for personal usage but a scr
 ![dashboard](https://github.com/angelomimmo/daily-stock-data-milan/assets/144590879/0ea6e095-bda9-49fe-b75d-55faee70c6ae)
 
 
+### Project diagram
+
+![Schema](https://github.com/angelomimmo/daily-stock-data-milan/assets/144590879/b4719880-2b61-4c1d-8a60-aad4660261f4)
+
+
 ### AWS Lambda functions
 
 ![lambda_fun_1](https://github.com/angelomimmo/daily-stock-data-milan/assets/144590879/57a28853-9aa5-4258-89ea-34e719286b27)
