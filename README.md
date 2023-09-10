@@ -11,7 +11,7 @@ The project is divided in two Python scripts running daily, after the Milan stoc
 
 The dashboard is not publicly given that it is only for personal usage but a screenshot is available below.
 
-## Tableau Public dashboard
+### Tableau Public dashboard
 
 ![dashboard](https://github.com/angelomimmo/daily-stock-data-milan/assets/144590879/0ea6e095-bda9-49fe-b75d-55faee70c6ae)
 
