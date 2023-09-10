@@ -9,7 +9,7 @@ The project is divided in two Python scripts running daily, after the Milan stoc
 5. I compute my KPIs. In this case, I simply computed the delta between today price and specific time points (yesterday, one week ago, one month ago, 3 months ago, 6 months ago, 1 year ago and 3 years ago). Morever, I checked whether the today price for each symbol reached the minimum or the maximum in the time spans mentioned above.
 6. The resulting table with the KPIs is written as a CSV file on Google Drive. Thus this file is updated daily and it is used as a live data source for the dashboard published on [Tableau Public](https://www.tableau.com/it-it/community/public)
 
-The dashboard is not publicly given that it is only for personal usage but a screenshot is available below.
+The dashboard is not publicly available given that it is only for personal use but a screenshot is available below to show the output of the project.
 
 ### Tableau Public dashboard
 
