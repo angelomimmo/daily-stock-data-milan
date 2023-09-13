@@ -17,7 +17,7 @@ import yfinance
 def lambda_handler(event, context):
     
     from stocksymbol import StockSymbol
-    api_key = '8b6d5f46-a1fb-4daf-8cac-5ca3db4d8748'
+    api_key = 'YourApiKey'
     ss = StockSymbol(api_key)
     symbol_list_italy = ss.get_symbol_list(market="italy")
     df_symbol_list_italy = pd.DataFrame(symbol_list_italy)
