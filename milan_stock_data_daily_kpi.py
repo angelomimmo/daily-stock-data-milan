@@ -13,7 +13,7 @@ def lambda_handler(event, context):
 
     # 1. Get the symbols listed on Borsa Italiana
     from stocksymbol import StockSymbol
-    api_key = '8b6d5f46-a1fb-4daf-8cac-5ca3db4d8748'
+    api_key = 'YourApiKey'
     ss = StockSymbol(api_key)
     
     symbol_list_italy = ss.get_symbol_list(market="italy")
