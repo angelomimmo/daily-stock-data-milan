@@ -11,14 +11,15 @@ The project is divided in two Python scripts running daily, after the Milan stoc
 
 The dashboard is available at [this link](https://public.tableau.com/views/StockDataMilanKPI/Dashboard1?:language=it-IT&:display_count=n&:origin=viz_share_link) on Tableau Public.
 
-### Tableau Public dashboard
-
-![dashboard](https://github.com/angelomimmo/daily-stock-data-milan/assets/144590879/0ea6e095-bda9-49fe-b75d-55faee70c6ae)
-
 
 ### Project diagram
 
 ![Schema](https://github.com/angelomimmo/daily-stock-data-milan/assets/144590879/b4719880-2b61-4c1d-8a60-aad4660261f4)
+
+
+### Tableau Public dashboard
+
+![dashboard](https://github.com/angelomimmo/daily-stock-data-milan/assets/144590879/0ea6e095-bda9-49fe-b75d-55faee70c6ae)
 
 
 ### AWS Lambda functions
