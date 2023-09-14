@@ -10,9 +10,7 @@ from decimal import Decimal
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", "--target", "/tmp", 'yfinance'])
 sys.path.append('/tmp')
-
 import yfinance
-
 
 def lambda_handler(event, context):
     
@@ -64,7 +62,6 @@ def lambda_handler(event, context):
     # 4. Batch write the data to DynamoDB
     dynamoDB = boto3.resource('dynamodb')
     stock_milan = dynamoDB.Table('stock_milan')
-    
     
     with stock_milan.batch_writer() as batch:
         # Loop through the JSON objects
